@@ -1,3 +1,4 @@
 # Art Lul·liana
 L'Ars (mot llatí que significa "art"), Ars combinatoria o Art lul·liana consisteix en un sistema filosòfic, impulsat i creat per Ramon Llull, amb l'objectiu de permetre demostrar, a través de l'argumentació filosòfica racional, la veritat del cristianisme als infidels mitjançant tècniques racionals de notació simbòlica i diagrames combinatoris. Llull escrigué diverses variants i simplificacions d'aquest sistema filosòfic com són l'Ars magna (1276), l'Art demostrativa (1283), l'Ars inventiva (1289) i l'Art breu (1308), entre d'altres. Intentant plasmar les 16 figures de la seva Art.
 # Art breu
+<img src="img/primera_figura.jpg" id="primera_figura" alt="" width="300" height="295"/>
