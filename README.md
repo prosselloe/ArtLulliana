@@ -39,3 +39,4 @@ L'Ars (mot llatí que significa "art"), Ars combinatoria o Art lul·liana consis
   </td>
  </tr>
 </table>
+<img src="img/diagrama_flux.jpg" alt="diagrama_flux" width="1000"/>
