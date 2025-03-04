@@ -19,23 +19,20 @@ L'Ars (mot llatí que significa "art"), Ars combinatoria o Art lul·liana consis
   <td width=576 colspan=2 valign=top style='width:432.2pt;border:solid windowtext 1.0pt;
   border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
-  normal'><o:p>&nbsp;</o:p></p>
+  <img src="img/quarta_figura.jpg" alt="quarta_figura"/> 
   </td>
  </tr>
  <tr style='mso-yfti-irow:2;mso-yfti-lastrow:yes'>
   <td width=288 valign=top style='width:216.1pt;border:solid windowtext 1.0pt;
   border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
-  normal'><o:p>&nbsp;</o:p></p>
+  <img src="img/tercera_figura.jpg" alt="tercera_figura"/> 
   </td>
   <td width=288 valign=top style='width:216.1pt;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
-  normal'><o:p>&nbsp;</o:p></p>
+  <img src="img/alfabet_de_lart_breu.jpg" alt="alfabet_de_lart_breu"/> 
   </td>
  </tr>
 </table>
