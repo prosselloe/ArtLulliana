@@ -1,4 +1,41 @@
 # Art Lul·liana
 L'Ars (mot llatí que significa "art"), Ars combinatoria o Art lul·liana consisteix en un sistema filosòfic, impulsat i creat per Ramon Llull, amb l'objectiu de permetre demostrar, a través de l'argumentació filosòfica racional, la veritat del cristianisme als infidels mitjançant tècniques racionals de notació simbòlica i diagrames combinatoris. Llull escrigué diverses variants i simplificacions d'aquest sistema filosòfic com són l'Ars magna (1276), l'Art demostrativa (1283), l'Ars inventiva (1289) i l'Art breu (1308), entre d'altres. Intentant plasmar les 16 figures de la seva Art.
 # Art breu
-<img src="img/primera_figura.jpg" id="primera_figura" alt="" width="300" height="295"/>
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=288 valign=top style='width:216.1pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <img src="img/primera_figura.jpg" alt="primera_figura"/>
+  </td>
+  <td width=288 valign=top style='width:216.1pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <img src="img/segona_figura.jpg" alt="segona_figura"/>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td width=576 colspan=2 valign=top style='width:432.2pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><o:p>&nbsp;</o:p></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2;mso-yfti-lastrow:yes'>
+  <td width=288 valign=top style='width:216.1pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><o:p>&nbsp;</o:p></p>
+  </td>
+  <td width=288 valign=top style='width:216.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><o:p>&nbsp;</o:p></p>
+  </td>
+ </tr>
+</table>
