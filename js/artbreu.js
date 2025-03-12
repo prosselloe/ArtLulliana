@@ -11,12 +11,12 @@ var T = ["diferència", "concordança", "contrarietat", "començament",
     "mitjà", "fi", "majoritat", "igualtat", "menoritat"];
 var cambres = [];
 var columna = 0;
-const myWindow = window.open("", "_blank", "width=912, height=666, left=15, top=15,\n\
-    location=0, menubar=0, resizable=0, scrollbars=0, status=0, titlebar=0, toolbar=0");
+const myWindow = window.open("", "_blank", "width=912, height=666, left=15, top=15, \n\
+        location=0, menubar=0, resizable=0, scrollbars=0, status=0, titlebar=0, toolbar=0");
 
 function generar_columnes() {
     myWindow.document.open();
-    myWindow.document.write("<html><head><title>Combinatòria Figura Quarta" +
+    myWindow.document.write("<html><head><title>Multipliació Quarta Figura" +
         "</title></head><body style='background-size: 320px 302px; " + 
         'background-image: url("img/password.png"); background-repeat: no-repeat;' + "'>" + 
         "<table border='1' style='border-collapse: collapse'>" +
