@@ -114,7 +114,7 @@ function color_fons(u0) {
         case 3:
         case 4: 
         case 5:
-            return "<span style='background-color:Orange;'>" + u0 + "</span>";
+            return "<span style='background-color:Tomato;'>" + u0 + "</span>";
         case 6:
         case 7:
         case 8:
