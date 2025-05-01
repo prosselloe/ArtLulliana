@@ -10,9 +10,90 @@ and open the template in the editor.
         <title>Art lul·liana</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            #RamonLlull { position:relative; top:-340px; left:550px; }
+            #CercleA { position:relative; top:-1427px; left:-305px; }
+            #CercleT { position:relative; top:-2087px; left:415px; }
+        </style>
+        <script>           
+            /*
+            // Rotació de la segona figura A
+            var degA = -120;
+            function timerA() {
+                degA = degA + 1;
+                document.getElementById("FiguraA").style.transform = "rotate(" + degA + "deg)";
+            }
+            setInterval(timerA, 100);
+            
+            // Rotació de la segona figura T
+            var degT = 120;
+            function timerT() {
+                degT = degT - 1;
+                document.getElementById("FiguraT").style.transform = "rotate(" + degT + "deg)";
+            }
+            setInterval(timerT, 100);
+            */
+            
+            // https://github.com/Friedman-Laura/CIT261/blob/master/code_topics/css_transforms.html
+            //==============================================================================
+            //BEGINNING OF Functions for 2D and 3D rotate
+            //==============================================================================
+            var x,y,z,n=0,ny=0,rotINT,rotYINT
+            
+            function rotateDIV()
+            {
+                x=document.getElementById("FiguraA")
+                y=document.getElementById("FiguraT")
+                clearInterval(rotINT)
+                rotINT=setInterval("startRotate()",100)
+            }
+            
+            function rotateYDIV()
+            {
+                z=document.getElementById("Figura")
+                clearInterval(rotYINT)
+                rotYINT=setInterval("startYRotate()",100)
+            }
+            
+            function startRotate()
+            {
+                n=n-1
+                x.style.transform="rotate(" + n + "deg)"
+                x.style.webkitTransform="rotate(" + n + "deg)"
+                x.style.OTransform="rotate(" + n + "deg)"
+                x.style.MozTransform="rotate(" + n + "deg)"
+                y.style.transform="rotate(" + n + "deg)"
+                y.style.webkitTransform="rotate(" + n + "deg)"
+                y.style.OTransform="rotate(" + n + "deg)"
+                y.style.MozTransform="rotate(" + n + "deg)"
+                if (n==180 || n==360)
+                {
+                    clearInterval(rotINT)
+                    if (n==360){n=0}
+                }
+            }
+            
+            function startYRotate()
+            {
+                ny=ny-1
+                z.style.transform="rotateY(" + ny + "deg)"
+                z.style.webkitTransform="rotateY(" + ny + "deg)"
+                z.style.OTransform="rotateY(" + ny + "deg)"
+                z.style.MozTransform="rotateY(" + ny + "deg)"
+                if (ny==180 || ny>=360)
+                {
+                    clearInterval(rotYINT)
+                    if (ny>=360){ny=0}
+                }
+            }
+            //==============================================================================
+            //END OF Functions for 2D and 3D rotate
+            //==============================================================================
+        </script>    
     </head>
-    <body style="background-image: url('img/ars_magna_de_ramon_llull.png'); 
-          background-size: 800px 800px; background-repeat: no-repeat;">
+    <body onload="rotateDIV(); rotateYDIV();" 
+          style="background-image: url('img/ars_magna.png'); 
+          background-size:800px 800px; background-repeat:no-repeat;">
         <br><br><br><br><br><br><br>
         <a href="https://prosselloe.wordpress.com/?p=13350">
             <h1 style="text-indent: 24%; color: white;">Art lul·liana</h1>
@@ -38,5 +119,10 @@ and open the template in the editor.
             <li><a href="https://breviculum.netlify.app/">
                     <h2 style="color: white;">Breviculum: Vida Coetània (1311-1316)</h2></a></li>
         </ul>
+        <div id="RamonLlull"><img id="Figura" src="img/ramonllull.gif" alt="RamonLlull"/></div>
+        <div id="CercleA"><img id="FiguraA" src="img/cercleA.gif" alt="CercleA" 
+                               style="width:665px;height:665px;"/></div>
+        <div id="CercleT"><img id="FiguraT" src="img/cercleT.gif" alt="CercleT" 
+                               style="width:665px;height:665px;"/></div>
     </body>
 </html>
