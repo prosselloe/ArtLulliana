@@ -9,8 +9,17 @@ and open the template in the editor.
         <title>Figura A</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>           
+            // Rotació de la segona figura A
+            var degA = -120;
+            function timerA() {
+                degA = degA + 1;
+                document.getElementById("FiguraA").style.transform = "rotate(" + degA + "deg)";
+            }
+            setInterval(timerA, 100);
+        </script>           
     </head>
-    <body>
+    <body style="background-image: url('img/fons.gif');">
         <h2>La Figura A:</h2>
         <h3>Representa els nou principis fonamentals de l’Art.</h3>
         <ul>
@@ -30,6 +39,6 @@ and open the template in the editor.
                 <li><span style="background-color:DodgerBlue">K: glòria.</span></li>
             </h3>
         </ul>
-        <img src="img/primera_figura.jpg"  alt="primera_figura" width="1000"/>
+        <img id="FiguraA" src="img/primera_figura.png" alt="primera_figura" width="1000"/>
     </body>
 </html>

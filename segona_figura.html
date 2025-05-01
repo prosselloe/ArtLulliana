@@ -9,8 +9,17 @@ and open the template in the editor.
         <title>Figura T</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>           
+            // Rotació de la segona figura T
+            var degT = 120;
+            function timerT() {
+                degT = degT - 1;
+                document.getElementById("FiguraT").style.transform = "rotate(" + degT + "deg)";
+            }
+            setInterval(timerT, 100);
+        </script>           
     </head>
-    <body>
+    <body style="background-image: url('img/fons.gif');">
         <h2>La Figura T:</h2>
         <h3>Consta de tres triangles entrellaçats inscrits en un cercle, cada un d’un color 
         distint; i representa tres tríades de conceptes.</h3>
@@ -31,6 +40,6 @@ and open the template in the editor.
                 <li><span style="background-color:Yellow;">K: minoritat<br>(groc).</span></li>
             </h3>
         </ul>
-        <img src="img/segona_figura.jpg"  alt="segona_figura" width="1000"/>
+        <img id="FiguraT" src="img/segona_figura.png" alt="segona_figura" width="1000"/>
     </body>
 </html>

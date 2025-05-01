@@ -23,9 +23,18 @@ and open the template in the editor.
             #groga2 { position:absolute; top:725px; left:475px; }
             #groga3 { position:absolute; top:725px; left:475px; }
         </style>
+        <script>           
+            // Rotació de la quarta figura
+            var degT = 120;
+            function timerQ() {
+                degT = degT - 1;
+                document.getElementById("FiguraQ").style.transform = "rotate(" + degT + "deg)";
+            }
+            setInterval(timerQ, 100);
+        </script>           
         <script src="js/artbreu.js" type="text/javascript"></script>
     </head>
-    <body onload="generar_columnes();">
+    <body onload="generar_columnes();" style="background-image: url('img/fons.gif');">
         <h2>La Quarta Figura:</h2>
         <h3>És circular i giratòria. Sobre una corona circular fixa, que mostra nou 
         lletres, de la B a la K, se’n sobreposen dues més de menors, amb les mateixes lletres, capaces 
@@ -36,7 +45,7 @@ and open the template in the editor.
         20 components cada una, resol totes les possibles combinacions ternàries implícites en la Quarta 
         Figura giratòria.<br>
         </h3>      
-        <img src="img/quarta_figura.jpg" alt="quarta_figura" width="1000"/>
+        <img id="FiguraQ" src="img/quarta_figura.png" alt="quarta_figura" width="1000"/>
         <img src="img/blava.png" id="blava1" style="width:50px;height:50px;"/>
         <img src="img/blava.png" id="blava2" style="width:50px;height:50px;"/>
         <img src="img/blava.png" id="blava3" style="width:50px;height:50px;"/>
