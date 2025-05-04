@@ -11,9 +11,10 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
-            #RamonLlull { position:relative; top:-445px; left:800px; }
-            #CercleA { position:relative; top:-1427px; left:-260px; }
-            #CercleT { position:relative; top:-2087px; left:840px; }
+            #mini_11 { position:relative; top:-805px; left:220px; }
+            #mini_05 { position:relative; top:-405px; left:850px; }
+            #CercleA { position:relative; top:-1827px; left:-260px; }
+            #CercleT { position:relative; top:-2487px; left:840px; }
         </style>
         <script>           
             /*
@@ -38,7 +39,7 @@ and open the template in the editor.
             //==============================================================================
             //BEGINNING OF Functions for 2D and 3D rotate
             //==============================================================================
-            var x,y,z,n=0,ny=0,rotINT,rotYINT
+            var w,x,y,z,n=0,ny=0,rotINT,rotYINT
             
             function rotateDIV()
             {
@@ -50,7 +51,8 @@ and open the template in the editor.
             
             function rotateYDIV()
             {
-                z=document.getElementById("Figura")
+                w=document.getElementById("Figura1")
+                z=document.getElementById("Figura2")
                 clearInterval(rotYINT)
                 rotYINT=setInterval("startYRotate()",100)
             }
@@ -76,6 +78,10 @@ and open the template in the editor.
             function startYRotate()
             {
                 ny=ny-1
+                w.style.transform="rotateY(" + ny + "deg)"
+                w.style.webkitTransform="rotateY(" + ny + "deg)"
+                w.style.OTransform="rotateY(" + ny + "deg)"
+                w.style.MozTransform="rotateY(" + ny + "deg)"
                 z.style.transform="rotateY(" + ny + "deg)"
                 z.style.webkitTransform="rotateY(" + ny + "deg)"
                 z.style.OTransform="rotateY(" + ny + "deg)"
@@ -122,7 +128,8 @@ and open the template in the editor.
                     <h2 style="color:white; background-color:black;">Breviculum: Vida Coetània (1311-1316)</h2></a></li>
         </ul>
         </div>
-        <div id="RamonLlull"><img id="Figura" src="img/ramonllull.gif" alt="RamonLlull"/></div>
+        <div id="mini_05"><img id="Figura1" src="img/mini_05.png" alt="RamonLlull"/></div>
+        <div id="mini_11"><img id="Figura2" src="img/mini_11.png" alt="RamonLlull"/></div>
         <div id="CercleA"><img id="FiguraA" src="img/cercleA.gif" alt="CercleA" 
                                style="width:665px;height:665px;"/></div>
         <div id="CercleT"><img id="FiguraT" src="img/cercleT.gif" alt="CercleT" 
